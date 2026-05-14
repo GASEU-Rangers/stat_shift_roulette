@@ -1,7 +1,9 @@
-const spinBtn = document.getElementById("spinBtn");
+const rouletteBtn = document.getElementById("rouletteBtn");
 
 const strongInput = document.getElementById("strongInput");
 const weakInput = document.getElementById("weakInput");
+
+const resultBox = document.querySelector(".result-box");
 
 const mainResult = document.getElementById("mainResult");
 const detailResult = document.getElementById("detailResult");
@@ -21,13 +23,15 @@ function randomPick(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-spinBtn.addEventListener("click", () => {
+rouletteBtn.addEventListener("click", () => {
 
   const strongList = parseValues(strongInput.value);
   const weakList = parseValues(weakInput.value);
 
   const strong = randomPick(strongList);
   const weak = randomPick(weakList);
+
+  resultBox.style.display = "block";
 
   mainResult.innerHTML = `${strong} ↔ ${weak}`;
 
