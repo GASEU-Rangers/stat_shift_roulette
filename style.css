@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 60px auto;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+.card {
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  border: 2px solid #777;
+  height: 70px;
+  text-align: center;
+}
+
+th {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.left {
+  width: 180px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+input {
+  width: 90%;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 28px;
+  text-align: center;
+  background: transparent;
+}
+
+.name-input {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  background: #dddddd;
+  padding: 14px 30px;
+  border-radius: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background: #cfcfcf;
+}
+
+.result-box h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.main-result {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.detail-result {
+  font-size: 30px;
+  line-height: 1.8;
+}
