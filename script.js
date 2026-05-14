@@ -3,7 +3,7 @@ const rouletteBtn = document.getElementById("rouletteBtn");
 const strongInput = document.getElementById("strongInput");
 const weakInput = document.getElementById("weakInput");
 
-const resultBox = document.querySelector(".result-box");
+const resultBox = document.getElementById("resultBox");
 
 const mainResult = document.getElementById("mainResult");
 const detailResult = document.getElementById("detailResult");
