@@ -11,10 +11,6 @@ body {
   margin: 50px auto;
 }
 
-#result {
-  margin-top: 20px;
-}
-
 .characters {
   display: flex;
   flex-direction: column;
@@ -42,12 +38,9 @@ th {
   overflow: hidden;
 }
 
-.diagonal {
-  width: 100px;
-}
-
+.diagonal,
 .name-cell {
-  width: 90px;
+  width: 25%;
 }
 
 .character-name {
@@ -78,6 +71,7 @@ input {
 
 .result-box {
   margin-top: 25px;
+  display: none;
 }
 
 .result-title {
